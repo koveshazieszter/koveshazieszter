@@ -16,6 +16,7 @@ public class OneTwoALot {
             System.out.println("not two");
         }else{
             System.out.println("many");
+
         }
     }
 }
