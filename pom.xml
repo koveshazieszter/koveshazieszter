@@ -11,8 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compieler.source>15</maven.compieler.source>
-        <maven.compieler.target>15</maven.compieler.target>
+        <maven.compieler.source>1.8</maven.compieler.source>
+        <maven.compieler.target>1.8</maven.compieler.target>
     </properties>
 
 
