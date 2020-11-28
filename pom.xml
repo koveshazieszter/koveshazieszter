@@ -8,11 +8,19 @@
     <groupId>org.example</groupId>
     <artifactId>Function</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations-java5</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compieler.source>1.8</maven.compieler.source>
-        <maven.compieler.target>1.8</maven.compieler.target>
+        <maven.compieler.source>15</maven.compieler.source>
+        <maven.compieler.target>15</maven.compieler.target>
     </properties>
 
 
