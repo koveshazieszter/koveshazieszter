@@ -5,7 +5,7 @@ public class PalindromSearch {
 
 
     public static void main(String[] args) {
-cd ..        searchPalindrom("madam");
+       searchPalindrom("madam");
     }
 
     static String searchPalindrom(String inputString) {
@@ -46,7 +46,6 @@ cd ..        searchPalindrom("madam");
         }
         return String.valueOf(palindromNumbers);
     }
-
 
 
 }
