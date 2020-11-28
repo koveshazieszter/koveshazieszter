@@ -23,6 +23,7 @@ public class WriteSingleLine {
     static String fileMamanipulating(String yourName) throws IOException {
         Path file = Path.of("my-file.txt");
         try {
+
             Files.writeString(file, yourName);
         }
         catch(IOException ioe){
