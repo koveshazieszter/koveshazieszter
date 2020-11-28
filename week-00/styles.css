@@ -1,0 +1,401 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+.navbar {
+    z-index: -1;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ol,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li {
+    font-size: 1.5rem;
+    float: right;
+
+}
+li a {
+    color: white;
+    text-align: center;
+    padding: 18px 41px;
+    text-decoration: none;
+    float: right;
+}
+li a:hover:not(.active) {
+    background-color: #ffffff;
+    color: #333333;
+}
+header li a.active {
+    background-color: #ff0099;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html,
+body {
+    font-family: 'Courier';
+}
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1.2rem;
+    overflow-x: hidden;
+}
+a,
+h2 {
+    color: #ff0099;
+}
+div,
+a,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 26%;
+    font-size: 2.7rem;
+    color: #444444;
+    /*float: right;*/
+    color: white;
+    padding-left: 5%;
+    overflow: hidden;
+}
+div.after::after {
+    display: block;
+    content: '';
+    width: 30px;
+    height: 1px;
+    border-bottom: 2px dashed black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    left: 48.6%;
+    margin-top: 5rem;
+}
+div.after {
+    position: relative;
+    margin-top: 0.5rem;
+}
+h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    padding-bottom: 5px;
+}
+a {
+    position: relative;
+}
+p {
+    line-height: 2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 1.5rem;
+}
+h2#top {
+    margin-top: 3rem;
+}
+section {
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+}
+article {
+    z-index: -99;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+img {
+    position: relative;
+    position: fixed;
+}
+img#montain {
+    float: right;
+    margin-left: 10.6rem;
+    background-size: cover;
+    z-index: -99;
+    width: 65vh;
+    height: 100vh;
+    right: 0;
+    background-attachment: fixed;
+}
+img#logo {
+
+    width: 100px;
+    padding-left: 3rem;
+    top: 0.3rem;
+    background-size: cover;
+    float: left;
+    color: white;
+}
+div .full {
+
+    padding-top: 3rem;
+}
+article#concepts section {
+    background-image: url('assets/topography.png');
+    height: 100vh;
+}
+p#aboutme {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: right;
+    color: white;
+    width: 24%;
+    text-align: center;
+}
+p {
+    color: #666666;
+    font-size: 1rem;
+}
+#position {
+
+    position: relative;
+}
+span {
+    color: #ff0099;
+}
+@media screen and(max-width: 1770px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    p#aboutme {
+        font-size: 1.3rem;
+    }
+}
+@media screen and(max-width: 1200px) {
+    #montain {
+        visibility: hidden;
+    }
+    article {
+        z-index: 99;
+        position: relative;
+        top: 15%;
+        left: 64%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 96%;
+        height: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+    article#concepts section {
+        background-image: none;
+        background-position: cover;
+        background-size: cover;
+        height: 100vh;
+        left: 190%;
+    }
+    article#concepts {
+        right: 0;
+    }
+    body {
+        background-image: url('assets/topography.png');
+        height: 100vh;
+        width: 100vw;
+    }
+    header {
+        /* background-image: url(assets/treebackground.jpg);
+        background-position: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100vh;
+       width: 100vh;
+    }*/
+        background-image: url('assets/pexels-michał-osiński-3454270.jpg'), linear-gradient(147deg, #353535 0%, #d7d7d7 74%);
+        position: relative;
+        height: 30vw;
+        background-size: cover;
+        background-position: 24% 20%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+    }
+    h1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.7rem;
+        color: #666666;
+        padding-top: 16%;
+    }
+    p#aboutme {
+        color: #666666;
+        font-weight: 100;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        font-size: 1.2rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding-top: -150px;
+        width: 80%;
+        columns: #666666;
+        text-align: center;
+    }
+    #position {
+        width: auto;
+    }
+    article#montainWidth {
+        display: inline-block;
+        left: 26%;
+        top: -1100px;
+        padding-top: 37%;
+        width: 80%;
+    }
+    .navbar {
+        z-index: 99999;
+    }
+    img#logo {
+        z-index: 999999;
+    }
+    /* On screens that are 600px wide or less, the background color is olive */
+    @media screen and(max-width: 600px) {
+        body {
+            background-color: olive;
+            color: white;
+        }
+    }
