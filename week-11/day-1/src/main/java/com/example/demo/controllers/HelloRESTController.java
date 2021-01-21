@@ -12,6 +12,6 @@ public class HelloRESTController {
     @RequestMapping(value="/greeting", method = RequestMethod.GET)
     @ResponseBody
     public Greeting optional(@RequestParam(required = false) String content) {
-        return new Greeting(1,"Hello " +content+"!");
+        return new Greeting(new  AutomaticLong().getGreetCount(),"Hello " +content+"!");
     }
 }
